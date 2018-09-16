@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4AD4E4214EC446001CDE26 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B4AD4E3214EC446001CDE26 /* download.jpeg */; };
 		1BCCB4A6214D5F0200E15EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCCB4A5214D5F0200E15EE9 /* AppDelegate.swift */; };
 		1BCCB4A8214D5F0200E15EE9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCCB4A7214D5F0200E15EE9 /* FirstViewController.swift */; };
 		1BCCB4AA214D5F0200E15EE9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCCB4A9214D5F0200E15EE9 /* SecondViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B4AD4E3214EC446001CDE26 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
 		1BCCB4A2214D5F0200E15EE9 /* AVI Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVI Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCCB4A5214D5F0200E15EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCCB4A7214D5F0200E15EE9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		1BCCB4C4214D67F100E15EE9 /* songs */ = {
 			isa = PBXGroup;
 			children = (
+				1B4AD4E3214EC446001CDE26 /* download.jpeg */,
 				1BCCB4C5214D67F100E15EE9 /* I Feel It Coming (feat Daft Punk).mp3 */,
 				1BCCB4C6214D67F100E15EE9 /* Party Monster.mp3 */,
 				1BCCB4C7214D67F100E15EE9 /* Reminder.mp3 */,
@@ -153,6 +156,7 @@
 				1BCCB4CB214D67F100E15EE9 /* Party Monster.mp3 in Resources */,
 				1BCCB4AF214D5F1300E15EE9 /* Assets.xcassets in Resources */,
 				1BCCB4CD214D67F100E15EE9 /* Sidewalks (feat. Kendrick Lamar).mp3 in Resources */,
+				1B4AD4E4214EC446001CDE26 /* download.jpeg in Resources */,
 				1BCCB4CE214D67F100E15EE9 /* Starboy.mp3 in Resources */,
 				1BCCB4CC214D67F100E15EE9 /* Reminder.mp3 in Resources */,
 				1BCCB4AD214D5F0200E15EE9 /* Main.storyboard in Resources */,
@@ -312,7 +316,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "AVI Music Player/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -320,6 +325,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "aiub.AVI-Music-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,7 +335,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "AVI Music Player/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -337,6 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "aiub.AVI-Music-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
