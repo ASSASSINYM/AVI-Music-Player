@@ -13,6 +13,11 @@
 		1BCCB4AD214D5F0200E15EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCB4AB214D5F0200E15EE9 /* Main.storyboard */; };
 		1BCCB4AF214D5F1300E15EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCB4AE214D5F1300E15EE9 /* Assets.xcassets */; };
 		1BCCB4B2214D5F1300E15EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCB4B0214D5F1300E15EE9 /* LaunchScreen.storyboard */; };
+		1BCCB4CA214D67F100E15EE9 /* I Feel It Coming (feat Daft Punk).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCB4C5214D67F100E15EE9 /* I Feel It Coming (feat Daft Punk).mp3 */; };
+		1BCCB4CB214D67F100E15EE9 /* Party Monster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCB4C6214D67F100E15EE9 /* Party Monster.mp3 */; };
+		1BCCB4CC214D67F100E15EE9 /* Reminder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCB4C7214D67F100E15EE9 /* Reminder.mp3 */; };
+		1BCCB4CD214D67F100E15EE9 /* Sidewalks (feat. Kendrick Lamar).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCB4C8214D67F100E15EE9 /* Sidewalks (feat. Kendrick Lamar).mp3 */; };
+		1BCCB4CE214D67F100E15EE9 /* Starboy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCB4C9214D67F100E15EE9 /* Starboy.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		1BCCB4AE214D5F1300E15EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCCB4B1214D5F1300E15EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BCCB4B3214D5F1300E15EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BCCB4C5214D67F100E15EE9 /* I Feel It Coming (feat Daft Punk).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Feel It Coming (feat Daft Punk).mp3"; sourceTree = "<group>"; };
+		1BCCB4C6214D67F100E15EE9 /* Party Monster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Party Monster.mp3"; sourceTree = "<group>"; };
+		1BCCB4C7214D67F100E15EE9 /* Reminder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Reminder.mp3; sourceTree = "<group>"; };
+		1BCCB4C8214D67F100E15EE9 /* Sidewalks (feat. Kendrick Lamar).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sidewalks (feat. Kendrick Lamar).mp3"; sourceTree = "<group>"; };
+		1BCCB4C9214D67F100E15EE9 /* Starboy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Starboy.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +73,21 @@
 				1BCCB4AE214D5F1300E15EE9 /* Assets.xcassets */,
 				1BCCB4B0214D5F1300E15EE9 /* LaunchScreen.storyboard */,
 				1BCCB4B3214D5F1300E15EE9 /* Info.plist */,
+				1BCCB4C4214D67F100E15EE9 /* songs */,
 			);
 			path = "AVI Music Player";
+			sourceTree = "<group>";
+		};
+		1BCCB4C4214D67F100E15EE9 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				1BCCB4C5214D67F100E15EE9 /* I Feel It Coming (feat Daft Punk).mp3 */,
+				1BCCB4C6214D67F100E15EE9 /* Party Monster.mp3 */,
+				1BCCB4C7214D67F100E15EE9 /* Reminder.mp3 */,
+				1BCCB4C8214D67F100E15EE9 /* Sidewalks (feat. Kendrick Lamar).mp3 */,
+				1BCCB4C9214D67F100E15EE9 /* Starboy.mp3 */,
+			);
+			path = songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCCB4CA214D67F100E15EE9 /* I Feel It Coming (feat Daft Punk).mp3 in Resources */,
 				1BCCB4B2214D5F1300E15EE9 /* LaunchScreen.storyboard in Resources */,
+				1BCCB4CB214D67F100E15EE9 /* Party Monster.mp3 in Resources */,
 				1BCCB4AF214D5F1300E15EE9 /* Assets.xcassets in Resources */,
+				1BCCB4CD214D67F100E15EE9 /* Sidewalks (feat. Kendrick Lamar).mp3 in Resources */,
+				1BCCB4CE214D67F100E15EE9 /* Starboy.mp3 in Resources */,
+				1BCCB4CC214D67F100E15EE9 /* Reminder.mp3 in Resources */,
 				1BCCB4AD214D5F0200E15EE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
